@@ -8,8 +8,10 @@
 #include <util/delay.h>
 #include <task.h>
 #include <sirene.h>
+#include <button.h>
 
 int main(void) {
+	xStartButtonTask();
 	xStartSireneTask();
 
 	_delay_ms(100);

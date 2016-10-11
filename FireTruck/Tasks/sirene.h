@@ -9,5 +9,6 @@
 #define SIRENE_H_
 
 void xStartSireneTask(void);
+void toggleSirene(void);
 
 #endif /* SIRENE_H_ */
